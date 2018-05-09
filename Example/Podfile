@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'colorHex_Example' do
+  pod 'colorHex', :path => '../'
+
+  target 'colorHex_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
