@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CBA24D02C24191B1DEAB64C539C6D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		433B83E3D964966EB7A4CDD56B6A5254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		587319D8B6C42314AC296193F03D10F8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A8206B2692B1D5BA1C10D081BED01 /* ReplaceMe.swift */; };
+		587319D8B6C42314AC296193F03D10F8 /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32A8206B2692B1D5BA1C10D081BED01 /* ColorHex.swift */; };
 		61E854CDCC9DA7E998F664CF794BD75D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8CB0A04EE2DA12C6B831F13419BFFAFE /* Pods-colorHex_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D14897AF6F2C1D91847D697B4198C2C6 /* Pods-colorHex_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92F07FAD196AAB0A9FBFD2F90270041E /* Pods-colorHex_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A163B9C41CE0F6888C1E62400DFE163F /* Pods-colorHex_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,14 +38,14 @@
 
 /* Begin PBXFileReference section */
 		07C83744744D170CD9D5EE163459D547 /* Pods-colorHex_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-colorHex_Example-resources.sh"; sourceTree = "<group>"; };
-		0AA23813E982CD11B5066C201B60EAA6 /* Pods_colorHex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_colorHex_Example.framework; path = "Pods-colorHex_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA23813E982CD11B5066C201B60EAA6 /* Pods_colorHex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorHex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10414C4A54ACE38346816FE6F44D20D1 /* Pods-colorHex_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-colorHex_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		153AF2C73F8CB1A5CF0742BF5B57827A /* Pods-colorHex_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-colorHex_Tests-dummy.m"; sourceTree = "<group>"; };
 		20D81A08DEF28518583B9652D2655665 /* Pods-colorHex_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-colorHex_Tests.modulemap"; sourceTree = "<group>"; };
 		21C3E5285F2DBDD8616AAD6C4A1D3933 /* Pods-colorHex_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-colorHex_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2B259148C0CC590140F699DB2EB6B96F /* Pods-colorHex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-colorHex_Example.release.xcconfig"; sourceTree = "<group>"; };
 		338CFEDA382B1D70A1883819F933E5E7 /* colorHex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "colorHex-umbrella.h"; sourceTree = "<group>"; };
-		363ABA1D540208A239F8ECF0B4F09081 /* Pods_colorHex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_colorHex_Tests.framework; path = "Pods-colorHex_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		363ABA1D540208A239F8ECF0B4F09081 /* Pods_colorHex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorHex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A2CB78A5CFA9015C026D040E16C501 /* Pods-colorHex_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-colorHex_Example.modulemap"; sourceTree = "<group>"; };
 		563646676B8BD79B56B505B59AFFAA5E /* colorHex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "colorHex-prefix.pch"; sourceTree = "<group>"; };
 		564C12903837F7C67BD7F77ECEEFB4BC /* Pods-colorHex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-colorHex_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,22 +55,22 @@
 		67EEC32C0922352CEB7CA91A22343717 /* colorHex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = colorHex.modulemap; sourceTree = "<group>"; };
 		68DC3BDA0FEB4A58A782E98BD2C28D06 /* colorHex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "colorHex-dummy.m"; sourceTree = "<group>"; };
 		826C011411F99787758F9D291E4FAAF6 /* Pods-colorHex_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-colorHex_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		943ED771CDB1E9F79899A3DBD48069EB /* Pods-colorHex_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-colorHex_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		974DB509B57C511FA4165CF398D1BA76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		974DB509B57C511FA4165CF398D1BA76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A163B9C41CE0F6888C1E62400DFE163F /* Pods-colorHex_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-colorHex_Example-umbrella.h"; sourceTree = "<group>"; };
-		A32A8206B2692B1D5BA1C10D081BED01 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = colorHex/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A32A8206B2692B1D5BA1C10D081BED01 /* ColorHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorHex.swift; path = colorHex/Classes/ColorHex.swift; sourceTree = "<group>"; };
 		ACC9FD3E9C904B0D51CBA42B72509D22 /* Pods-colorHex_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-colorHex_Example-dummy.m"; sourceTree = "<group>"; };
 		AE68F22BCEF8956C29CE862FC2E37929 /* Pods-colorHex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-colorHex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B03D079074A223A05E2606FE6E4789DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDAAF8BAD31758F464D3BFF6C8551BFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1AEA26907DAEE8C7347F08027024F54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C31E7002AF56512DF879D6732B827463 /* colorHex.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = colorHex.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1AEA26907DAEE8C7347F08027024F54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C31E7002AF56512DF879D6732B827463 /* colorHex.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = colorHex.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C9196F9060931B9AA756838269325BD4 /* Pods-colorHex_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-colorHex_Tests-resources.sh"; sourceTree = "<group>"; };
 		CEA8BC00A52C19A3FC6D669901D2DE0D /* colorHex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = colorHex.xcconfig; sourceTree = "<group>"; };
 		D14897AF6F2C1D91847D697B4198C2C6 /* Pods-colorHex_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-colorHex_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D631094FAB08EB403B75C0E723E07C9D /* Pods-colorHex_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-colorHex_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FEB439A0362F0778DBA279AB288A785F /* colorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = colorHex.framework; path = colorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB439A0362F0778DBA279AB288A785F /* colorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = colorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF369D53115C7DE50CA3BF6C5D35B874 /* Pods-colorHex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-colorHex_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,7 +211,7 @@
 		C8F0E064CA4DF71476EB6B4DA3426FC1 /* colorHex */ = {
 			isa = PBXGroup;
 			children = (
-				A32A8206B2692B1D5BA1C10D081BED01 /* ReplaceMe.swift */,
+				A32A8206B2692B1D5BA1C10D081BED01 /* ColorHex.swift */,
 				98D779A2B2238906B0B3F3A32F243BBD /* Pod */,
 				A58166F490D3A0C29F6D0CBBE72770DE /* Support Files */,
 			);
@@ -344,7 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB868D48FF314C2D2B56EAF5478EE98 /* colorHex-dummy.m in Sources */,
-				587319D8B6C42314AC296193F03D10F8 /* ReplaceMe.swift in Sources */,
+				587319D8B6C42314AC296193F03D10F8 /* ColorHex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
