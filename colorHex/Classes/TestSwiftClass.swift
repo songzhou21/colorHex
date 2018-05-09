@@ -8,7 +8,7 @@
 import Foundation
 
 public class TestSwiftClass: NSObject {
-    public func test() {
-        print("test from swift")
+    public func test(test: String) {
+        print("test from swift " + test)
     }
 }
