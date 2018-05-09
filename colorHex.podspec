@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author           = { 'songzhou21' => 'zhousong1993@gmail.com' }
   s.source           = { :git => 'https://github.com/songzhou21/colorHex.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'colorHex/Classes/**/*'
 end
