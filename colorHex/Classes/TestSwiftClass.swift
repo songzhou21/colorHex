@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class TestSwiftClass {
+public class TestSwiftClass: NSObject {
     public func test() {
         print("test from swift")
     }
