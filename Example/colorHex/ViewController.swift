@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  colorHex
 //
-//  Created by songathsk on 05/09/2018.
-//  Copyright (c) 2018 songathsk. All rights reserved.
+//  Created by songzhou on 05/09/2018.
+//  Copyright (c) 2018 songzhou. All rights reserved.
 //
 
 import UIKit
