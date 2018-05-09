@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47DFF81D5A90E6B19043DAB19792FD12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		589300A120A2F0910088E887 /* TestSwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589300A020A2F0910088E887 /* TestSwiftClass.swift */; };
 		5E3A545401F316AA250D5DF1EC7147FF /* ColorHex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0600836ABEE77C974F39EA369B4FF40 /* ColorHex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		703F9918DA86F1D151E5E857A0CCC321 /* Pods-colorHex_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 458EC98691E84F419C04998E8093F71D /* Pods-colorHex_Example-dummy.m */; };
 		777D5D0C680AD65ACF6623A01F36523A /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6007F5F269FAB5FAF7BD3758306C2C /* ColorHex.swift */; };
@@ -35,6 +36,7 @@
 		1D6BBA4B34D02FF3582DDFEC21DC2717 /* Pods-colorHex_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-colorHex_Example-resources.sh"; sourceTree = "<group>"; };
 		458EC98691E84F419C04998E8093F71D /* Pods-colorHex_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-colorHex_Example-dummy.m"; sourceTree = "<group>"; };
 		4774DF654FDB92485B2566C002A8D0D5 /* ColorHex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorHex-prefix.pch"; sourceTree = "<group>"; };
+		589300A020A2F0910088E887 /* TestSwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftClass.swift; sourceTree = "<group>"; };
 		5BF7B372295F972BAEC517F50263BBD2 /* Pods_colorHex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorHex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B131B619B2C8618C01AA0BFF82A32A5 /* Pods-colorHex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-colorHex_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				ED6007F5F269FAB5FAF7BD3758306C2C /* ColorHex.swift */,
+				589300A020A2F0910088E887 /* TestSwiftClass.swift */,
 				91A72890A264B5D64144F287D6A1A5DE /* Pod */,
 				1D4B77D1EC7255B7277328259AA810E5 /* Support Files */,
 			);
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED77200B08AE4CC7A1EAE1A6B131F27D /* ColorHex-dummy.m in Sources */,
+				589300A120A2F0910088E887 /* TestSwiftClass.swift in Sources */,
 				777D5D0C680AD65ACF6623A01F36523A /* ColorHex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
