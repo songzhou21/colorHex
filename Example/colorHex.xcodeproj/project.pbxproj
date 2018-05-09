@@ -216,11 +216,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-colorHex_Example/Pods-colorHex_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/colorHex/colorHex.framework",
+				"${BUILT_PRODUCTS_DIR}/ColorHex/ColorHex.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/colorHex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorHex.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

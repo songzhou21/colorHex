@@ -1,5 +1,5 @@
-framework module colorHex {
-  umbrella header "colorHex-umbrella.h"
+framework module ColorHex {
+  umbrella header "ColorHex-umbrella.h"
 
   export *
   module * { export * }

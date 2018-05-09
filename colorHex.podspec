@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'colorHex'
+  s.name             = 'ColorHex'
   s.version          = '0.1.0'
   s.summary          = 'color from hex value'
   

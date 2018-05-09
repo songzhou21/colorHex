@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## colorHex
+## ColorHex
 
 Copyright (c) 2018 songathsk <zhousong1993@gmail.com>
 

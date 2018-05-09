@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double colorHexVersionNumber;
-FOUNDATION_EXPORT const unsigned char colorHexVersionString[];
+FOUNDATION_EXPORT double ColorHexVersionNumber;
+FOUNDATION_EXPORT const unsigned char ColorHexVersionString[];
 

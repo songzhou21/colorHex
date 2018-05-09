@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import ColorHex
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        self.view.backgroundColor = UIColor(hex: 0xfd9898)
+//        self.view.backgroundColor = UIColor(hexString: "0xfd9898")
+        self.view.backgroundColor = UIColor(hexString: "#fd9898")
     }
 
     override func didReceiveMemoryWarning() {

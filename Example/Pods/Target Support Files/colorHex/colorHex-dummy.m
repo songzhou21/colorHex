@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_colorHex : NSObject
+@interface PodsDummy_ColorHex : NSObject
 @end
-@implementation PodsDummy_colorHex
+@implementation PodsDummy_ColorHex
 @end
