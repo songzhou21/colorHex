@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583B12D420A283FA0005B06D /* README in Resources */ = {isa = PBXBuildFile; fileRef = 583B12D320A283F90005B06D /* README */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		0843C1CD055A7B95D3552999 /* Pods-colorHex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorHex_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorHex_Example/Pods-colorHex_Example.release.xcconfig"; sourceTree = "<group>"; };
-		22549C8DBF627692FEBBD1F0 /* colorHex.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = colorHex.podspec; path = ../colorHex.podspec; sourceTree = "<group>"; };
+		22549C8DBF627692FEBBD1F0 /* colorHex.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = colorHex.podspec; path = ../colorHex.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51B810780C7049B8124B80C6 /* Pods-colorHex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorHex_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorHex_Tests/Pods-colorHex_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		583B12D320A283F90005B06D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* colorHex_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorHex_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		771C2B897F46F4F4D6003C8F /* Pods_colorHex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorHex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9038313E5B0CC6227C6054BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9038313E5B0CC6227C6054BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		907E15C19FB7217D2532B296 /* Pods_colorHex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorHex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E059D29AF6E29C16F6D0A150 /* Pods-colorHex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorHex_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorHex_Tests/Pods-colorHex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2ED1EC5ABF974845336331C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3752D38C7A877025DDF16C9 /* Pods-colorHex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorHex_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorHex_Example/Pods-colorHex_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				22549C8DBF627692FEBBD1F0 /* colorHex.podspec */,
-				E2ED1EC5ABF974845336331C /* README.md */,
+				583B12D320A283F90005B06D /* README */,
 				9038313E5B0CC6227C6054BE /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -245,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583B12D420A283FA0005B06D /* README in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
