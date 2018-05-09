@@ -1,0 +1,22 @@
+{
+  "name": "colorHex",
+  "version": "0.1.0",
+  "summary": "A short description of colorHex.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/songathsk/colorHex",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "songathsk": "zhousong1993@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/songathsk/colorHex.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "colorHex/Classes/**/*"
+}

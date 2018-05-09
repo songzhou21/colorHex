@@ -1,0 +1,16 @@
+PODS:
+  - colorHex (0.1.0)
+
+DEPENDENCIES:
+  - colorHex (from `../`)
+
+EXTERNAL SOURCES:
+  colorHex:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  colorHex: 816825dedadb74c5a66ccd65132f12962f76a526
+
+PODFILE CHECKSUM: 7e22e76212cb7280dd9a7d9cfa1a3aa177d448e1
+
+COCOAPODS: 1.5.0
