@@ -16,9 +16,9 @@ class ViewController: UIViewController {
 //        self.view.backgroundColor = UIColor(hex: 0xfd9898)
 //        self.view.backgroundColor = UIColor(hexString: "0xfd9898")
         self.view.backgroundColor = UIColor(hexString: "#fd9898")
-        
-        let c = TestSwiftClass()
-        c.test(test: "song")
+
+        let objcView = ObjcView(frame: CGRect(x: 0, y: 0, width: 200, height: 40))
+        view.addSubview(objcView)
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,6 +8,16 @@
 import UIKit
 
 extension UIColor {
+    @objc
+    class public func color(hex: UInt32) -> UIColor {
+        return  UIColor(hex: hex)
+    }
+    
+    @objc
+    class public func color(hexString: String) -> UIColor {
+        return UIColor(hexString: hexString)
+    }
+    
     public convenience init(hex: UInt32) {
         let rmd: UInt32 = 0xFF
         let mask: UInt32 = 0xFF
