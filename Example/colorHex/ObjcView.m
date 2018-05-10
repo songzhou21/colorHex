@@ -7,7 +7,7 @@
 //
 
 #import "ObjcView.h"
-#import <colorHex/ColorHex-Swift.h>
+#import <ColorHex/ColorHex-Swift.h>
 
 @implementation ObjcView
 
